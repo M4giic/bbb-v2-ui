@@ -1,0 +1,78 @@
+.container {
+  padding: 10;
+  margin:10 auto; width:1080px; position: relative; height: 100px;
+}
+
+
+.navBar {
+  display: inline;
+  position: relative;
+  width: 900px;
+  height: 100px;
+}
+
+.navBox {
+  width: 190px;
+  height: 84px;
+  left: 24px;
+  position:relative;
+  display: inline; /* ADDED */
+}
+.navbar a{
+  font-size: 24px;
+  padding: 0px 0px 0px 10px;
+  color: rgba(255, 255, 255, 0.7);
+  float: left;
+}
+
+.navbar a:hover{
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.9);
+  transition: 0.2s;
+}
+
+.navbar form {
+  padding: 0px 10px 0px 10px;
+  margin: 5px 0 0 0;
+  display: inline;
+}
+
+
+.stuff-xd{
+  display: inline;
+}
+
+.stuff-xd input{
+  width: 200px;
+  height: 40px;
+}
+.stuff-xd .form-check-input{
+  width: 17px;
+  height: 17px;
+}
+
+.stuff-xd .form-check-label{
+  color: rgba(255, 255, 255, 0.7);
+  height: 17px;
+}
+.stuff-xd button{
+  width: 100px;
+  height: 40px;
+  margin: 10px 10px 0px 10px;
+}
+.text-danger{
+  font-size: 17px;
+}
+
+.loggedInNaviLinks-ul{
+  float:left;
+}
+
+.navbar .nav-link{
+  font-size: 21px;
+
+}
+.navbar .nav-link:hover{
+  font-size: 22px;
+
+}
